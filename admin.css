@@ -1,0 +1,79 @@
+body {
+    background-color: wheat;
+
+}
+
+ul > li {
+    list-style: none;
+}
+
+.nav-sidebar > li > a:hover {
+    background-color: burlywood;
+}
+
+
+
+.nav-sidebar {
+    border: 2px solid chocolate;
+}
+
+.nav-sidebar > li > a {
+    padding: 18px;
+    color: chocolate;
+
+}
+
+.nav-sidebar:first-of-type {
+    margin-bottom: 40px;
+}
+
+.col-sm-7 {
+    text-align: center;
+    padding: 12px 12px;
+    color: chocolate;
+}
+
+.placeholders {
+    border: 2px solid chocolate;
+    margin: 20px 15px;
+    border-radius: 20px;
+    text-align: center;
+    width: 350px;
+}
+
+.placeholder {
+    margin-bottom: 20px;
+}
+
+.placeholder > h1,
+p {
+    display: inline;
+
+}
+
+th {
+    text-align: center;
+    font-size: 35px;
+}
+
+td {
+    font-size: 20px;
+}
+
+tr {
+    padding: 25px;
+}
+
+
+
+
+#footer {
+    text-align: center;
+    padding: 30px;
+    color: chocolate;
+    background: brown;
+    width: 100%;
+    overflow: hidden;
+
+
+}
