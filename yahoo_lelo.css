@@ -1,0 +1,64 @@
+
+.navbar-brand i{
+    color: rebeccapurple;
+}
+
+.navbar {
+    background-color: #eee;
+    min-width:100%;
+    
+}
+
+
+li .dropdown {
+    color: #e3e3e3;
+}
+
+a.navbar-brand:hover{
+color: darkviolet;
+}
+
+.jumbotron {
+    height: auto;
+    text-align: center;
+    border-radius: 13px;
+    width:auto;
+}
+
+p.logo {
+    font-size: 45px;
+    padding: 20px;
+}
+
+p.logo span {
+    color: rebeccapurple;
+}
+
+.btn {
+    padding: 12px 15px;
+    font-size: 20px;
+}
+
+.jumbotron h1 {
+    padding: 40px;
+}
+
+
+
+.col-lg-4>h1,p,a{
+    width: auto;
+    height: auto;
+}
+
+.col-lg-4 {
+    text-align: center;
+    padding:25px 20px;
+    
+}
+
+
+p,a{
+    color: grey;
+}
+
+

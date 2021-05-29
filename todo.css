@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: linear-gradient(orange, grey, black) no-repeat fixed;
+    
+}
+
+
+
+ input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+     color:rgba(0,0,0, 0.2);
+}
+
+.wrapper .header{
+    font-family: monospace;
+    font-size:45px;
+    color:brown;
+    text-align: center;
+    display:block;
+    border-bottom: 2px dashed brown;
+    border-radius: 5px 0 0 0;
+    margin-bottom: 30px;
+}
+
+ol li {
+    font-size: 25px;
+    font-family: monospace;
+    list-style: none;
+    padding:20px;
+}
+
+.wrapper {
+    background: wheat;
+    display: block;
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+    border: 4px dotted brown;
+    box-sizing: border-box;
+    margin: 30px auto;
+}
+
+input[type="checkbox"]{
+    position:relative;
+    left:399px;
+}
+
+.yellow{
+    background:burlywood;
+}
+

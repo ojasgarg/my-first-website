@@ -1,0 +1,89 @@
+body {
+    background: url(images/ash.jpg)no-repeat fixed;
+    background-size: cover;
+    color: white;
+
+}
+
+
+
+
+.navbar-wrapper {
+    position: fixed;
+}
+
+
+
+.carousel {
+    height: 700px;
+    margin-bottom: 60px;
+    width: 1200px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+
+
+.carousel-inner > .item > img {
+    height: 700px;
+    min-width: 100%;
+
+}
+
+
+
+.col-lg-4 {
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.col-lg-4 > img,
+h1,
+p {
+    width: auto;
+    height: auto;
+}
+
+.col-lg-4 > img {
+    padding-top: 25px;
+}
+
+
+.divider {
+    margin-top: 30px;
+}
+
+.col-md-7 {
+    padding: 60px 40px;
+}
+
+.row,
+.content {
+    margin-bottom: 35px;
+}
+
+
+.img-content {
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.col-md-7 .content-heading {
+    letter-spacing: 3px;
+}
+
+.col-md-7 .content-para {
+    margin-bottom: 12px;
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    color: slategray;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid grey;
+}
